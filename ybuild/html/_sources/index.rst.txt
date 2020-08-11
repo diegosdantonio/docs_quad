@@ -2,21 +2,18 @@ Documentation quad!
 =======================================
 
 
-Another title!
-=======================================
+Here you can find the 3D model
 
-   print 'hello'
-   >> hello
+.. toctree::
+   :maxdepth: 1
+   :caption: Drone assemble
+   :name: sec-assemble
 
-
-Guide
-^^^^^
+   assemble/index
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
-
 
 
 Indices and tables
