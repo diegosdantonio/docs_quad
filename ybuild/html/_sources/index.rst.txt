@@ -1,6 +1,9 @@
 Documentation quad!
 =======================================
 
+.. figure:: assemble/images/quadrotor.JPG
+    :align: center
+    :figwidth: 500px
 
 Here you can find the 3D model
 
