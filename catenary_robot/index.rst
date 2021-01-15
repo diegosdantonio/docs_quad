@@ -5,15 +5,6 @@ Assemble step by step
    :maxdepth: 1
    :name: toc-introduction
 
-Parts
---------
-
-
-.. math:: x_A, x_B =
-    :label: euler
-
-equation :eq:`euler`
-
    introduction
 
 .. history

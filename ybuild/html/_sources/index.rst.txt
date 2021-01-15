@@ -15,6 +15,13 @@ Here you can find the 3D model
    assemble/index
 
 .. toctree::
+   :maxdepth: 1
+   :caption: The Catenary Robot
+   :name: sec-catenary_robot
+
+   catenary_robot/index
+
+.. toctree::
    :maxdepth: 2
    :caption: Contents:
 
