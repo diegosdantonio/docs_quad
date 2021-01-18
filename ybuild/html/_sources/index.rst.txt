@@ -25,6 +25,14 @@ Here you can find the 3D model
     Coppelia Simulator              <catenary_robot/coppelia>
     Experiments and implementation  <catenary_robot/experimentsandimpl>
 
+.. toctree::
+   :caption: H-ModQuad
+   :name: sec-hmodquad
+   :maxdepth: 1
+
+    intro                          <h-modquad/introduction>
+
+
 
 Indices and tables
 ------------------
