@@ -21,9 +21,9 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = u'doctutorial'
-copyright = u'2020, DiegoSDantonio'
-author = u'DiegoSDantonio'
+project = u'SwarmLabs Projects'
+copyright = u'2020, Diego S. Dantonio'
+author = u'Diego S. Dantonio'
 
 # The short X.Y version
 version = u''

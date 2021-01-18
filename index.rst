@@ -8,26 +8,26 @@ Documentation quad!
 Here you can find the 3D model
 
 .. toctree::
-   :maxdepth: 1
    :caption: Drone assemble
    :name: sec-assemble
+   :maxdepth: 1
 
-   assemble/index
+    Quadrotor design    <assemble/design>
+    Mathematical model  <assemble/model>
 
 .. toctree::
-   :maxdepth: 1
    :caption: The Catenary Robot
    :name: sec-catenary_robot
+   :maxdepth: 1
 
-   catenary_robot/index
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    Theory                          <catenary_robot/theory>
+    MATLAB simuator                 <catenary_robot/matlab>
+    Coppelia Simulator              <catenary_robot/coppelia>
+    Experiments and implementation  <catenary_robot/experimentsandimpl>
 
 
 Indices and tables
-==================
+------------------
 
 * :ref:`genindex`
 * :ref:`modindex`

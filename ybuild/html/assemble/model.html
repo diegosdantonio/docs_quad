@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Quadrotor design1 &mdash; SwarmLabs Projects 0.0.1 documentation</title>
+  <title>Mathematical Model &mdash; SwarmLabs Projects 0.0.1 documentation</title>
   
 
   
@@ -36,7 +36,9 @@
 
     
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" /> 
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Catenary theory" href="../catenary_robot/theory.html" />
+    <link rel="prev" title="Quadrotor design" href="design.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -82,9 +84,13 @@
             
             
               <p class="caption"><span class="caption-text">Drone assemble</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="design.html"> Quadrotor design</a></li>
-<li class="toctree-l1"><a class="reference internal" href="model.html"> Mathematical model</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#"> Mathematical model</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#inertial-matrix">Inertial Matrix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#kf-and-km">kf and km</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption"><span class="caption-text">The Catenary Robot</span></p>
 <ul>
@@ -138,13 +144,13 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Quadrotor design1</li>
+      <li>Mathematical Model</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/assemble/introduction.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/assemble/model.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -157,12 +163,33 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="quadrotor-design1">
-<h1>Quadrotor design1<a class="headerlink" href="#quadrotor-design1" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound" id="toc-quaddesign-introduction">
+  <div class="section" id="mathematical-model">
+<span id="id1"></span><h1>Mathematical Model<a class="headerlink" href="#mathematical-model" title="Permalink to this headline">¶</a></h1>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{eqnarray}    %
+    m {\mathbf{\ddot{x}}} &amp;=&amp;
+    -m g\, \mathbf{e}_3+ {}^W\mathbf{R} {f} \mathbf{e}_3\\
+    %
+    \mathbf{J}\dot{\boldsymbol{\omega}} &amp;=&amp;
+    -\boldsymbol{\omega} \times \mathbf{J}\boldsymbol{\omega}
+    + \boldsymbol{\tau},
+\end{eqnarray}\end{split}\]</div>
+<p>Where the rotation matrix is,</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\boldsymbol{R}_{xzy} = \left [
+\begin{array}
+   c\psi c\theta - s\phi s\psi s\theta &amp; -c\phi s\psi &amp; c\psi s\theta + c\theta s\phi s\psi\\
+   c\theta s\psi + c\psi s\phi s\theta &amp; c\phi s\psi &amp; s\psi s\theta + c\psi c\theta s\phi\\
+   - c\phi s\theta &amp; s\phi &amp; c\phi c\theta
+\end{array} \right ],\end{split}\]</div>
+<p>Each rotor has an angular velocity <span class="math notranslate nohighlight">\(\boldsymbol{\omega}\)</span> and produce
+a thrust <span class="math notranslate nohighlight">\(\boldsymbol{f_i} = k_F \boldsymbol{\omega_i}^2\)</span>, Also The
+rotors produce a moment by <span class="math notranslate nohighlight">\(\boldsymbol{M_i} = k_M \boldsymbol{\omega_i}^2\)</span></p>
+<div class="section" id="inertial-matrix">
+<h2>Inertial Matrix<a class="headerlink" href="#inertial-matrix" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="figure align-center" style="width: 300px">
-<img alt="../_images/quadrotor.JPG" src="../_images/quadrotor.JPG" />
+<div class="section" id="kf-and-km">
+<h2>kf and km<a class="headerlink" href="#kf-and-km" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -171,6 +198,15 @@
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../catenary_robot/theory.html" class="btn btn-neutral float-right" title="Catenary theory" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="design.html" class="btn btn-neutral float-left" title="Quadrotor design" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>

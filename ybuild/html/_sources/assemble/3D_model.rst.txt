@@ -1,6 +1,0 @@
-Documentation quad!
-=======================================
-
-.. figure:: images/quadrotor.JPG
-    :align: center
-    :figwidth: 500px
