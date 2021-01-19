@@ -99,6 +99,10 @@
 <li class="toctree-l1"><a class="reference internal" href="../catenary_robot/coppelia.html"> Coppelia Simulator</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../catenary_robot/experimentsandimpl.html"> Experiments and implementation</a></li>
 </ul>
+<p class="caption"><span class="caption-text">H-ModQuad</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../h-modquad/introduction.html"> intro</a></li>
+</ul>
 
             
           
@@ -168,11 +172,12 @@
 <div class="math notranslate nohighlight">
 \[\begin{split}\begin{eqnarray}    %
     m {\mathbf{\ddot{x}}} &amp;=&amp;
-    -m g\, \mathbf{e}_3+ {}^W\mathbf{R} {f} \mathbf{e}_3\\
+    -m g\, \mathbf{e}_3+ {}^W\mathbf{R} {f} \mathbf{e}_3,\\
     %
     \mathbf{J}\dot{\boldsymbol{\omega}} &amp;=&amp;
     -\boldsymbol{\omega} \times \mathbf{J}\boldsymbol{\omega}
-    + \boldsymbol{\tau},
+    + \boldsymbol{\tau},\\
+    \dot{\mathbf{R}}_i^W &amp;=\mathbf{R}_i^W\hat{\boldsymbol{\omega} }_i,
 \end{eqnarray}\end{split}\]</div>
 <p>Where the rotation matrix is,</p>
 <div class="math notranslate nohighlight">

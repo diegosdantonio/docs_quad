@@ -7,11 +7,12 @@ Mathematical Model
 .. math::
     \begin{eqnarray}    %
         m {\mathbf{\ddot{x}}} &=&
-        -m g\, \mathbf{e}_3+ {}^W\mathbf{R} {f} \mathbf{e}_3\\
+        -m g\, \mathbf{e}_3+ {}^W\mathbf{R} {f} \mathbf{e}_3,\\
         %
         \mathbf{J}\dot{\boldsymbol{\omega}} &=&
         -\boldsymbol{\omega} \times \mathbf{J}\boldsymbol{\omega}
-        + \boldsymbol{\tau},
+        + \boldsymbol{\tau},\\
+        \dot{\mathbf{R}}^W &=\mathbf{R}^W\hat{\boldsymbol{\omega} },
     \end{eqnarray}
 
 Where the rotation matrix is,
