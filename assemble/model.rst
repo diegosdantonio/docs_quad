@@ -12,7 +12,7 @@ Mathematical Model
         \mathbf{J}\dot{\boldsymbol{\omega}} &=&
         -\boldsymbol{\omega} \times \mathbf{J}\boldsymbol{\omega}
         + \boldsymbol{\tau},\\
-        \dot{\mathbf{R}}^W &=\mathbf{R}^W\hat{\boldsymbol{\omega} },
+        \dot{\mathbf{R}}^W &=&\mathbf{R}^W\hat{\boldsymbol{\omega} },
     \end{eqnarray}
 
 Where the rotation matrix is,
