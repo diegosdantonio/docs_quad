@@ -37,7 +37,8 @@ Parts
     - core_frame [Durable_]
     - 2 x CCW motor mount [Durable_]
     - 2 x CW motor mount [Durable_]
-* 16 - 4 x nut (3mm)
+* Nut
+    - 4 x 3mm
 .. _Flexible: https://formlabs.com/materials/flexible-elastic 
 .. _Durable: https://formlabs.com/materials/tough-durable/ 
 
