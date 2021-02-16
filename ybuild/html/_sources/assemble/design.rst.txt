@@ -19,10 +19,10 @@ Parts
 * 2 - 4 x EMAX avan Quad-Blade 2 inch
 * 3 - AKK 20(Amp) 4 in 1 BLHeli 2S–4S
 * 4 - CrazyBolt
-* 5 - 8 x carbon rods (12cm)
-* 6 - 4 x carbon rods (5.5cm)
-* 7 - 4 x carbon rods (6.2cm)
-* 8 - 4 x carbon rods (15cm)
+* 5 - 8 x side carbon rods (12cm)
+* 6 - 4 x carbon rods (Decide by you)
+* 7 - 4 x inner square carbon rods (8.5cm)
+* 8 - 4 x diagonal carbon rods (17cm)
 * 9 - 4 x corner_1
 * 10 - 4 x corner_2
 * 11 - 2 x inner_square_1
