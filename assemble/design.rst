@@ -30,8 +30,8 @@ Parts
     - 4 x inner square carbon rods (8.5cm)
     - 4 x diagonal carbon rods (17cm)
 * 3D Printer Units
-    - 4 x corner_1 [Flexible](https://formlabs.com/materials/flexible-elastic)
-      [Go to the Support Web Site](https://support.west-wind.com)
+    - 4 x corner_1 [Flexible_]
+.. _Flexible: https://formlabs.com/materials/flexible-elastic
     - 4 x corner_2  
     - 2 x inner_square_1 (Dur/To)
     - 2 x inner_square_2
