@@ -15,21 +15,28 @@ Parts
     :align: center
     :figwidth: 600px
 
-* 1 ： 4 x EMAX RS1108 - 5200KV
-* 2 - 4 x EMAX avan Quad-Blade 2 inch
-* 3 - AKK 20(Amp) 4 in 1 BLHeli 2S–4S
-* 4 - CrazyBolt
-* 5 - 8 x side carbon rods (12cm)
-* 6 - 4 x carbon rods (Decide by you)
-* 7 - 4 x inner square carbon rods (8.5cm)
-* 8 - 4 x diagonal carbon rods (17cm)
-* 9 - 4 x corner_1
-* 10 - 4 x corner_2
-* 11 - 2 x inner_square_1
-* 12 - 2 x inner_square_2
-* 13 - core_frame
-* 14 - 2 x CCW motor mount
-* 15 - 2 x CW motor mount
+
+* Motor
+    - 4 x EMAX RS1108 - 5200KV 
+* Propeller
+    - 4 x EMAX avan Quad-Blade 2 inch 
+* Electronic Speed Control
+    - AKK 20(Amp) 4 in 1 BLHeli 2S–4S 
+* Mainboard 
+    - CrazyBolt
+* Carbon Rods
+    - 8 x side  (12cm)
+    - 4 x carbon rods (Decide by you)
+    - 4 x inner square carbon rods (8.5cm)
+    - 4 x diagonal carbon rods (17cm)
+* 3D Printer Units
+    - 4 x corner_1 [(Flexible)](https://formlabs.com/materials/flexible-elastic/)
+    - 4 x corner_2  
+    - 2 x inner_square_1 (Dur/To)
+    - 2 x inner_square_2
+    - core_frame
+    - 2 x CCW motor mount
+    - 2 x CW motor mount
 * 16 - 4 x nut (3mm)
 
 
