@@ -31,15 +31,15 @@ Parts
     - 4 x diagonal carbon rods (17cm)
 * 3D Printer Units
     - 4 x corner_1 [Flexible_]
-.. _Flexible: https://formlabs.com/materials/flexible-elastic
-    - 4 x corner_2  
-    - 2 x inner_square_1 (Dur/To)
-    - 2 x inner_square_2
-    - core_frame
-    - 2 x CCW motor mount
-    - 2 x CW motor mount
+    - 4 x corner_2 [Flexible_]
+    - 2 x inner_square_1 [Durable_]
+    - 2 x inner_square_2 [Durable_]
+    - core_frame [Durable_]
+    - 2 x CCW motor mount [Durable_]
+    - 2 x CW motor mount [Durable_]
 * 16 - 4 x nut (3mm)
-
+.. _Flexible: https://formlabs.com/materials/flexible-elastic 
+.. _Durable: https://formlabs.com/materials/tough-durable/ 
 
 Assemble step by step
 ======================
