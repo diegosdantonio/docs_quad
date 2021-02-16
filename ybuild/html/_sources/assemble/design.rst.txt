@@ -15,7 +15,7 @@ Parts
     :align: center
     :figwidth: 600px
 
-* 1 - 4 x EMAX RS1108 - 5200KV
+* 1 ： 4 x EMAX RS1108 - 5200KV
 * 2 - 4 x EMAX avan Quad-Blade 2 inch
 * 3 - AKK 20(Amp) 4 in 1 BLHeli 2S–4S
 * 4 - CrazyBolt

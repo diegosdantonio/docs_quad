@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Catenary theory &mdash; SwarmLabs Projects 0.0.1 documentation</title>
+  <title>Introduction &mdash; SwarmLabs Projects 0.0.1 documentation</title>
   
 
   
@@ -38,8 +38,7 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="MATLAB simuator" href="matlab.html" />
-    <link rel="prev" title="Mathematical Model" href="../assemble/model.html" /> 
+    <link rel="prev" title="Experiments and implementation" href="../catenary_robot/experimentsandimpl.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -90,15 +89,15 @@
 <li class="toctree-l1"><a class="reference internal" href="../assemble/model.html"> Mathematical model</a></li>
 </ul>
 <p class="caption"><span class="caption-text">The Catenary Robot</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#"> Theory</a></li>
-<li class="toctree-l1"><a class="reference internal" href="matlab.html"> MATLAB simuator</a></li>
-<li class="toctree-l1"><a class="reference internal" href="coppelia.html"> Coppelia Simulator</a></li>
-<li class="toctree-l1"><a class="reference internal" href="experimentsandimpl.html"> Experiments and implementation</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../catenary_robot/theory.html"> Theory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../catenary_robot/matlab.html"> MATLAB simuator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../catenary_robot/coppelia.html"> Coppelia Simulator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../catenary_robot/experimentsandimpl.html"> Experiments and implementation</a></li>
 </ul>
 <p class="caption"><span class="caption-text">H-ModQuad</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../h-modquad/introduction.html"> intro</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#"> intro</a></li>
 </ul>
 
             
@@ -147,13 +146,13 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Catenary theory</li>
+      <li>Introduction</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../_sources/catenary_robot/theory.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/h-modquad/introduction.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -166,8 +165,9 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="catenary-theory">
-<span id="theory"></span><h1>Catenary theory<a class="headerlink" href="#catenary-theory" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="introduction">
+<span id="intro"></span><h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p>A quadrotor has four propellers as actuators which give the controllability of at most 4 degrees of freedom (DoF). Commonly, the propellers are mouonted perpendicular to the control board, forming a square shape by design. This symmetric design helps simplify the dynamic and control models. However, if more propellers are placed in the same manner, i.e., perpendicular to the control board and forming a common polygon, or multiple quadrotors are placed side to side, the number of controllability will not increase, desipte the improvement in robustness and overall power output. In order to utilize the reducdency to increase the controllability, one can tilt the <em>4+n</em> propellers in different angles. The <em>n</em> extra propellers can contribute to the extra number of DoF’s. This solution requires a different set of modelling work to control the mutirotor systems. Here, we present a modular quadrotor system which flies, by individual, and increases the number of DoF’s when docking together as a new structure without much requirement of changing the models.</p>
 </div>
 
 
@@ -176,8 +176,7 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="matlab.html" class="btn btn-neutral float-right" title="MATLAB simuator" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="../assemble/model.html" class="btn btn-neutral float-left" title="Mathematical Model" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../catenary_robot/experimentsandimpl.html" class="btn btn-neutral float-left" title="Experiments and implementation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
