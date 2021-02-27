@@ -3,8 +3,8 @@ Introduction
 
 
 .. figure:: images/example1.png
-    :align: center
-    :figwidth: 500px
+    :align: left
+    :figwidth: 300px
 
 Transporting objects using aerial robots has been
 widely studied in the literature. Still, those approaches always
