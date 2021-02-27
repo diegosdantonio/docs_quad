@@ -20,6 +20,7 @@ Here you can find the 3D model
    :name: sec-catenary_robot
    :maxdepth: 1
 
+    Introduction                    <catenary_robot/introduction>
     Theory                          <catenary_robot/theory>
     MATLAB simuator                 <catenary_robot/matlab>
     Coppelia Simulator              <catenary_robot/coppelia>
