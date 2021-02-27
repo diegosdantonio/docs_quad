@@ -2,6 +2,10 @@ Introduction
 ============
 
 
+.. figure:: images/example1.png
+    :align: center
+    :figwidth: 500px
+
 Transporting objects using aerial robots has been
 widely studied in the literature. Still, those approaches always
 assume that the connection between the quadrotor and the load
@@ -19,12 +23,6 @@ we can drive the two quadrotors to track a given trajectory.
 We validate our approach with simulations and real robots. We
 present four different scenarios of experiments. Our numerical
 solution is computationally fast and can be executed in real-time.
-
-.. figure:: images/example1.PNG
-    :align: center
-    :figwidth: 500px
-
-
 
 
 
