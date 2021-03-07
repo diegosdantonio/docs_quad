@@ -9,17 +9,20 @@ Quadrotor design
     :figwidth: 300px
 
 
-Structure
--------
+Structure Plot
+----------------
 .. figure:: images/quadrotor2.PNG
     :align: center
     :figwidth: 600px
 
 
+Structure Details in Sequence
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 * Motor
     - 4 x EMAX RS1108 - 5200KV 
 * Propeller
-    - 4 x EMAX avan Quad-Blade 2 inch 
+    - 4 x EMAX avan Quad-Blade 2 inch  
 * Electronic Speed Control(ESC)
     - 1 x AKK 20(Amp) 4 in 1 BLHeli 2S–4S 
 * Mainboard 
@@ -39,6 +42,7 @@ Structure
     - 2 x CW motor mount [Durable_]
 * Nut
     - 4 x 3 mm
+
 .. _Flexible: https://formlabs.com/materials/flexible-elastic 
 .. _Durable: https://formlabs.com/materials/tough-durable/ 
 
