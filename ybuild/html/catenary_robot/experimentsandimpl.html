@@ -32,6 +32,7 @@
         <script src="../_static/jquery.js"></script>
         <script src="../_static/underscore.js"></script>
         <script src="../_static/doctools.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
 
@@ -91,6 +92,7 @@
 </ul>
 <p class="caption"><span class="caption-text">The Catenary Robot</span></p>
 <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html"> Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="theory.html"> Theory</a></li>
 <li class="toctree-l1"><a class="reference internal" href="matlab.html"> MATLAB simuator</a></li>
 <li class="toctree-l1"><a class="reference internal" href="coppelia.html"> Coppelia Simulator</a></li>
@@ -168,6 +170,23 @@
             
   <div class="section" id="experiments-and-implementation">
 <span id="id1"></span><h1>Experiments and implementation<a class="headerlink" href="#experiments-and-implementation" title="Permalink to this headline">¶</a></h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RjKkjZuCDV4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Experiment 1.1: Track a trajectory where the catenary point <span class="math notranslate nohighlight">\(\boldsymbol{\chi_c}\)</span> is driven to <span class="math notranslate nohighlight">\(\boldsymbol{\chi_c}^d\)</span>, and then it remains static while
+the span and yaw orientation oscillate. Demonstrate that
+even when the robots are moving around, the lowest point will
+remain at the same location once that this point is reached.
+This experiment is performed in both simulation and actual
+robots.</p>
+<p>Experiment 1.2: Test with different kinds of cables to demonstrate the effect of increasing the weight of the cable
+Demonstrate that if the weight is big enough it affects the motion of the catenary robot and it is necessary to consider it in the model so the thrust compensates the extra force.</p>
+<p>Experiment 2: Define a trajectory of the catenary to move through obstacles that require accurate motion.
+Even though we do not have direct measurements of the curve, we are able to track a trajectory,
+based on the catenary trajectory tracking and tracking controller equations.</p>
+<p>Experiment 3: Interact with and attach to an umbrella handle (an object with a naturally
+hook-shaped attach point) by controlling the lowest point
+o the catenary curve.</p>
+<p>Experiment 4: Design to transport a hook-shaped object achieved by a created
+trajectory that allows the catenary robot to self-attach to the
+object and lift it to take it to another place in the environment.</p>
 </div>
 
 
