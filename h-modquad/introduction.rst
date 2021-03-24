@@ -29,6 +29,7 @@ Development Diary
 {0, -12., 1.1547, -0.57735, -0.57735, -0.2},
 {8., -4., 1.1547, 0.57735, -0.57735, -0.2},
 {0, 4., 1.1547, 0.57735, 0.57735, -0.6}}
+
 - The current Mellinger Controller in the crazyflie firmware is inverted in roll and yaw errors, which needs to be compensated in using the PID gains.
 
 - Currently, our PID is suboptimal which makes the motors saturate badly.
