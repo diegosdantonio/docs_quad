@@ -44,9 +44,15 @@ Development Diary
   - Build our own quadrotors
     - The reason behind which is for better debugging experience, trying to bypass some inconsistency that exists because of old designs or at least trying to understand them, and cutting most modules that we do not use. We may get into WAY more and larger troubles, but we choose to do it not because it is easy but because it is hard!!! (sorry I am excited.)
     - Use the Crazyflie hardwares and build our firmware from scratch:
-      - Understand the pins, the sensor/communication resources and we can start from driving one motor!
+      -- Understand the pins, the sensor/communication resources and we can start from driving one motor!
     - Use Arduino Nano 33 that runs on an ARM M0 processor and almost-equivalent system resources like RAM and ROM.
-      - Understand the pins, the sensor/communication resources (which should be easier) and we can start from driving one motor too!
+      -- Understand the pins, the sensor/communication resources (which should be easier) and we can start from driving one motor too!
     - Use a MicroPy board v1.1 that runs on an STM32F405 chip, which is exactly the same as the one on Crazyflie Bolt.
-      - Ehh, this one supports python. Would that allow us to have some convenience with linalg?
-      - And this one does not have a gyro...
+      -- Ehh, this one supports python. Would that allow us to have some convenience with linalg?
+      -- And this one does not have a gyro...
+
+03/26/2021
+- We got the Arduino Nano 33 IoT and BLE earlier today. Both of them runs on mediocre 32-bit processors and are impressively small in size.
+  - IoT runs at 48 MHz with an ARM M0 core. WiFi/Bluetooth 4.2/accelerometer+gyro IMU.
+  - BLE runs at 64 MHz with an ARM M4 core. Bluetooth 5.0/accelerometer+gyro+magnet IMU.
+    - Some tests I ran to test bluetooth under peripheral mode are included in https://github.com/diegosdantonio/docs_quad/blob/363432c580b6276f0551e75675da821802ce74ba/h-modquad/development_diary_ws/arduino/bluetooth_periph_matrix_test/bluetooth_periph_matrix_test.ino : 100 Inversion operations on a 4x4 matrix took 11 milliseconds. Bravo!
