@@ -31,7 +31,8 @@ Here you can find the 3D model
    :name: sec-hmodquad
    :maxdepth: 1
 
-    intro                          <h-modquad/introduction>
+    Intro                          <h-modquad/introduction>
+    Development                    <h-modquad/development>
 
 
 
