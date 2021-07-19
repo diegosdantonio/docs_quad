@@ -68,4 +68,23 @@
 - Now testing on M.x, M.y, and M.z to see if they make sense
   - First of all, we make sure that our power distribution works with the default PID controller. Since we did not change any parameter of the PID controller, that means the power distribution works despite the fd and Md calculation (modified Mellinger controller). What we do to get the power distribution is firstly getting A matrix in Mathematica then adding a negative sign to the row that gives fy. At last, we invert the A matrix with modified fy row. This method gives the same result as given in the official firmware when the number of motors is 4 and the tilting angle is zero.
   - Second, we did not change the equation as in Mellinger controller. We just projected the force vector in the x_F, y_F, z_F vectors.
-  - 
+
+### 07/19/2021
+- It's been some time, hehehe. Now we got the 2x2 H-Modquad with T-modules working like a charm.
+- The Ai matrix we are using is:
+{{-0.14, -0.11, 0.0883883, -1.06066, 1.06066, -1.25},
+{0.12, -0.11, 0.0883883, -1.06066, 0.353553, 0.416667},
+{0.12, 0.13, 0.0883883, -0.353553, 0.353553, 0.416667},
+{-0.14, 0.13, 0.0883883, -0.353553, 1.06066, 0.416667},
+{0.13, 0.14, 0.0883883, -1.06066, -0.353553, 0.416667},
+{-0.11, 0.14, 0.0883883, -1.06066, -1.06066, -1.25},
+{-0.11, -0.12, 0.0883883, -0.353553, -1.06066, 0.416667},
+{0.13, -0.12, 0.0883883, -0.353553, -0.353553, 0.416667},
+{-0.12, -0.13, 0.0883883, 0.353553, -0.353553, 0.416667},
+{0.14, -0.13, 0.0883883, 0.353553, -1.06066, 0.416667},
+{0.14, 0.11, 0.0883883, 1.06066, -1.06066, -1.25},
+{-0.12, 0.11, 0.0883883, 1.06066, -0.353553, 0.416667},
+{0.11, 0.12, 0.0883883, 0.353553, 1.06066, 0.416667},
+{-0.13, 0.12, 0.0883883, 0.353553, 0.353553, 0.416667},
+{-0.13, -0.14, 0.0883883, 1.06066, 0.353553, 0.416667},
+{0.11, -0.14, 0.0883883, 1.06066, 1.06066, -1.25}}
